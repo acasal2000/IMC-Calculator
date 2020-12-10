@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fbfbfb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#title-container{
+    border: 1px solid transparent;
+    background-color: #00c4ff;
+    color: white;
+}
+
+#title{
+    margin-left: 20px;
+}
+
+#main-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+   
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+
+#input-area-container{
+    padding: 10px;
+    width: 34%;
+}
+
+#height-container{
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#weight-container{
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#calculate-button-container{
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#imc-result-container{
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#results-guide-container{
+    padding: 10px;
+    width: 34%;
+}
+
+#textarea-weight{
+    resize: none;
+    border: 1px solid #00c4ff;
+    border-radius: 10px;
+    font-size: 17px;
+    height: 34px;
+    padding-left: 20px;
+}
+
+#textarea-weight:focus, #textarea-height:focus{
+    outline: none !important;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+#textarea-height{
+    resize: none;
+    border: 1px solid #00c4ff;
+    border-radius: 10px;
+    font-size: 17px;
+    height: 34px;
+    padding-left: 20px;
+}
+
+#button-calculate-imc{
+    height: 50px;
+    width: auto;
+    max-width: auto;
+    margin: 0 auto;
+
+    background-color: #1d6182;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#button-calculate-imc:hover{
+    outline: none !important;
+    box-shadow: 0 0 3px #719ECE;
+    cursor: pointer;
+}
+
+#results-guide-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#guide-title-container{
+    text-align: center;
+}
+
+#results-guide-table{
+    text-align: center;
+    background-color: #fbfbfb;
+}
+
+#results-guide-table tr:nth-child(even){
+    background-color: #e3e3e3;
+}
+
+#results-guide-table tr{
+   
+}
+
+#results-guide-table th{
+    background-color: #007bb5;
+    color: white;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+    background-color: #101010;
+    height: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 11px;
+    justify-content: center;    
+}
+
+#created-by-container{
+    color: white;
+}
+
+#social-container{
+    margin-top: 6px;   
+    margin-left: 22px;
+}

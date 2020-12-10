@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IMC Calculator</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="title-container">
+            <h2 id="title">Calculadora de IMC</h2>
+        </div>
+        <div id="main-container">
+            <div id="input-area-container">
+                <div id="height-container">
+                    <h3 id="subtitle-height">Altura (cm):</h3>
+                    <input id="textarea-height" type="number"></input>
+                </div>
+                <div id="weight-container">
+                    <h3 id="subtitle-weight">Peso (kg):</h3>
+                    <input id="textarea-weight" type="number"></input>
+                </div>
+                <div id="calculate-button-container">
+                    <button id="button-calculate-imc" onclick="calculateIMC();">Calcular IMC</button>
+                </div>
+                <div id="imc-result-container">
+                    <div id="result-subtitle-container">
+
+                    </div>
+                    <div id="result-text-container">
+
+                    </div>
+                </div>
+            </div>
+            <div id="results-guide-container">
+                <div id="guide-title-container">
+                    <h4>IMC - Índice de Massa Corporal </h4>
+                </div>
+                <table id="results-guide-table">
+                    <tr>
+                        <th>Estado Nutricional</th>
+                        <th>IMC</th>
+                    </tr>
+                    <tr>
+                        <td><b>Baixo Peso</b></td>
+                        <td>< 18,5</td>
+                    </tr>
+                    <tr>
+                        <td><b>Peso Normal</b></td>
+                        <td>18,5 - 24,9</td>
+                    </tr>
+                    <tr>
+                        <td><b>Excesso de Peso</b></td>
+                        <td>25 - 29,9</td>
+                    </tr>
+                    <tr>
+                        <td><b>Obesidade</b></td>
+                        <td>>= 30</td>
+                    </tr>
+                    <tr>
+                        <td><b>Obesidade Classe I (Moderada)</b></td>
+                        <td>30 - 34,9</td>
+                    </tr>
+                    <tr>
+                        <td><b>Obesidade Classe II (Severa)</b></td>
+                        <td>35 - 39.9</td>
+                    </tr>
+                    <tr>
+                        <td><b>Obesidade Classe III (Mórbida)</b></td>
+                        <td>> 40</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="created-by-container">
+                <p>Criado por ACasal</p>
+            </div>
+            <div id="social-container">
+                <a href="https://github.com/acasal2000/" target="_blank">
+                    <img src="img/github.png" width="30" height="30" alt="github">
+                </a> 
+            </div>
+            
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
